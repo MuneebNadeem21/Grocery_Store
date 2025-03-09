@@ -4,6 +4,7 @@ from .serializers import StoreSerializer, ProductSerializer, ShoppingListSeriali
 
 class StoreViewSet(viewsets.ModelViewSet):
     queryset = Store.objects.all()
+    # testing file hai 
     serializer_class = StoreSerializer
 
 class ProductViewSet(viewsets.ModelViewSet):
