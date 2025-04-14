@@ -9,6 +9,7 @@ class StoreViewSet(viewsets.ModelViewSet):
 
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
+    print(queryset)
     serializer_class = ProductSerializer
 
 class ShoppingListViewSet(viewsets.ModelViewSet):
