@@ -14,5 +14,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     print(serializer_class)
 
 class ShoppingListViewSet(viewsets.ModelViewSet):
+    print('test')
     queryset = ShoppingList.objects.all()
     serializer_class = ShoppingListSerializer
