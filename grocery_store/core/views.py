@@ -18,6 +18,7 @@ class ShoppingListViewSet(viewsets.ModelViewSet):
     print('test2')
     print('feature3')
     print('feature 4')
+
     print('MN-23')
     print('test PR')
     print('again  push')
