@@ -12,7 +12,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     print(queryset)
     serializer_class = ProductSerializer
     print(serializer_class)
-    print('button feature')
 
 class ShoppingListViewSet(viewsets.ModelViewSet):
     print('test')
